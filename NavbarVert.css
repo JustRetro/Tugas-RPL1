@@ -57,23 +57,3 @@ body {
    padding: 20px;
    flex-grow: 1;
 }
-
-@media (max-width:768px) {
-   .navbar-links {
-      display: none;
-      flex-direction: column;
-      width: 100%;
-   }
-
-   .navbar-links li {
-      margin: 10px 0;
-   }
-
-   .navbar-toggle {
-      display: flex;
-   }
-
-   .navbar-checkbox:checked+.navbar-toggle+.navbar-links {
-      display: flex;
-   }
-}
